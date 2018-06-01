@@ -1,0 +1,136 @@
+@font-face {
+	font-family: "ChampagneBold";
+	src: url('fonts/champagne/ChampagneBold.ttf');
+}
+
+@font-face {
+	font-family: "Champagne";
+	src: url('fonts/champagne/Champagne.ttf');
+}
+
+.sections {
+    font-family: "ChampagneBold";
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    font-size: 40px;
+}
+
+.avengers {
+    background-image: url("images/vengeurs.jpg");
+    min-height: 850px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.antman {
+    background-image: url("images/antman.jpg");
+    min-height: 550px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.captainMarvel {
+    background-image: url("images/captainMarvel.jpg");
+    min-height: 550px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.avengers4 {
+    background-image: url("images/avengers4.jpg");
+    min-height: 550px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.navbar-brand {
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.middle {
+    position: absolute;
+    top: 15%;
+    margin: 5%;
+}
+
+.card {
+    float: left;
+    margin: 22px;
+    width: 30%;
+    height: 30%;
+}
+
+.card-image:hover .MoviePic {
+    opacity: 0.5;
+    webkit-filter: blur(5px);
+    filter: blur(5px);
+}
+
+.card-image:hover .text {
+	opacity: 1;
+}
+
+.text {
+	opacity: 0;
+    font-family: "Champagne";
+    color: black;
+    margin: 10px;
+    font-size: large;
+}
+
+.titre {
+    font-family: "ChampagneBold";
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 5px;
+}
+
+.MoviePic {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 30px;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 5%;
+}
+
+.sidenav a {
+    text-decoration: none;
+    font-size: 16px;
+    color: grey;
+	padding: 10%;
+    transition: 0.3s;
+}
+
+footer {
+    background-color: white;
+    text-align:center;
+    bottom:0;
+    width:100%;
+    display:inline-block;
+    vertical-align:top;
+    font-size: 20px;
+    font-family: "Champagne";
+}
+
+.foot {
+    font-size: 30px;
+}
